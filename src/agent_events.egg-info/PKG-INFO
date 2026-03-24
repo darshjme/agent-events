@@ -1,0 +1,24 @@
+Metadata-Version: 2.4
+Name: agent-events
+Version: 0.1.0
+Summary: Event bus and pub/sub system for multi-agent coordination — zero infrastructure, zero dependencies.
+Author-email: Darshankumar Joshi <darshjme@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/darshjme-codes/agent-events
+Project-URL: Repository, https://github.com/darshjme-codes/agent-events
+Project-URL: Issues, https://github.com/darshjme-codes/agent-events/issues
+Keywords: event-bus,pub-sub,multi-agent,events,async
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=7.4; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
