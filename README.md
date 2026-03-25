@@ -1,10 +1,12 @@
 <div align="center">
 
-<img src="assets/agent-events-hero.png" alt="agent-events — Vedic Arsenal" width="100%" />
+<img src="assets/agent-events-hero.png" alt="agent-events — Vedic Arsenal by Darshankumar Joshi" width="100%" />
 
 # ⚡ agent-events
 
-### *लीला* — Leela — the divine play of events
+<h3><em>लीला</em></h3>
+
+> *Leela — the divine play of events*
 
 **Event bus and pub/sub system for multi-agent coordination — priority handlers, async queue, event filtering, history replay. Zero dependencies.**
 
@@ -39,6 +41,19 @@ Or clone directly:
 git clone https://github.com/darshjme/agent-events.git
 cd agent-events
 pip install -e .
+```
+
+## How It Works
+
+```mermaid
+flowchart LR
+    A[Publisher] --> B[Event Bus]
+    B --> C[Handler 1]
+    B --> D[Handler 2]
+    B --> E[Handler 3]
+    B --> F[History Replay]
+    C & D & E --> G[Ack]
+    style B fill:#f59e0b,color:#000
 ```
 
 ## Quick Start
@@ -90,7 +105,7 @@ MIT — use freely, build freely.
 
 <div align="center">
 
-**Built with ⚡ by [Darshankumar Joshi](https://github.com/darshjme)**
+**Built with ⚡ by [Darshankumar Joshi](https://github.com/darshjme)** · [@thedarshanjoshi](https://twitter.com/thedarshanjoshi)
 
 *"कर्मण्येवाधिकारस्ते मा फलेषु कदाचन"*
 *Your right is to action alone, never to the fruits thereof.*
